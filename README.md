@@ -4,30 +4,28 @@ language:
 - zh
 license: apache-2.0
 tags:
-- qwen3
+- zen
+- zen-lm
 - edge
 - mobile
 - lightweight
-- zen-ai
-base_model: Qwen/Qwen3-0.6B
 pipeline_tag: text-generation
 library_name: transformers
 ---
 
 # Zen Nano 0.6B
 
-**Zen Nano** is an ultra-lightweight 0.6B parameter language model optimized for edge devices and mobile deployment. Based on Qwen3-0.6B, it delivers impressive performance in a tiny package.
+**Zen Nano** is an ultra-lightweight 0.6B parameter language model optimized for edge devices and mobile deployment. A compact foundation model that delivers impressive performance in a tiny package.
 
 ## Model Details
 
 - **Model Type**: Causal Language Model
-- **Architecture**: Qwen3 (0.6B)
+- **Architecture**: 0.6B dense transformer
 - **Parameters**: 0.6 billion
 - **License**: Apache 2.0
 - **Languages**: English, Chinese
 - **Context Length**: 32K tokens
-- **Developed by**: Zen AI Team
-- **Base Model**: [Qwen/Qwen3-0.6B](https://huggingface.co/Qwen/Qwen3-0.6B)
+- **Developed by**: Zen AI Team (Hanzo AI)
 
 ## Capabilities
 
@@ -150,27 +148,7 @@ llamafactory-cli train \
 Part of the **[Zen AI](https://github.com/zenlm)** ecosystem.
 ---
 
-## Based On
-
-**zen-nano** is based on [Qwen3-0.6B](https://huggingface.co/Qwen/Qwen3-0.6B)
-
-We are grateful to the original authors for their excellent work and open-source contributions.
-
-### Upstream Source
-- **Repository**: https://huggingface.co/Qwen/Qwen3-0.6B
-- **Base Model**: Qwen3-0.6B
-- **License**: See original repository for license details
-
-### Changes in Zen LM
-- Adapted for Zen AI ecosystem
-- Fine-tuned for specific use cases
-- Added training and inference scripts
-- Integrated with Zen Gym and Zen Engine
-- Enhanced documentation and examples
-
-### Citation
-
-If you use this model, please cite both the original work and Zen LM:
+## Citation
 
 ```bibtex
 @misc{zenlm2025zen-nano,
@@ -181,5 +159,3 @@ If you use this model, please cite both the original work and Zen LM:
     howpublished={\url{https://huggingface.co/zenlm/zen-nano}}
 }
 ```
-
-Please also cite the original upstream work - see https://huggingface.co/Qwen/Qwen3-0.6B for citation details.
