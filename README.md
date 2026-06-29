@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="zen-nano" width="880"></p>
+
 ---
 language:
 - en
