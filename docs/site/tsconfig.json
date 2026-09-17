@@ -21,13 +21,8 @@
     "noFallthroughCasesInSwitch": true,
     
     /* Path mapping */
-    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "@luxfi/ui": ["/Users/z/work/lux/web/pkg/ui"],
-      "@luxfi/ui/*": ["/Users/z/work/lux/web/pkg/ui/*"],
-      "@hanzo/ui": ["/Users/z/work/hanzo/ui/pkg/ui"],
-      "@hanzo/ui/*": ["/Users/z/work/hanzo/ui/pkg/ui/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src"],
